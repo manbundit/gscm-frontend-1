@@ -1,0 +1,372 @@
+/* @import url('https://cdn.jsdelivr.net/gh/lazywasabi/thai-web-fonts@6/fonts/IBMPlexSansThai/IBMPlexSansThai.css');
+@font-face {
+  font-family: 'IBM Plex Sans Thai';
+  src: url('https://cdn.jsdelivr.net/gh/lazywasabi/thai-web-fonts@6/fonts/IBMPlexSansThai/IBMPlexSansThai-Thin.woff2') format('woff2');
+  font-style: normal;
+  font-weight: 100;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'IBM Plex Sans Thai';
+  src: url('https://cdn.jsdelivr.net/gh/lazywasabi/thai-web-fonts@6/fonts/IBMPlexSansThai/IBMPlexSansThai-ExtraLight.woff2') format('woff2');
+  font-style: normal;
+  font-weight: 200;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'IBM Plex Sans Thai';
+  src: url('https://cdn.jsdelivr.net/gh/lazywasabi/thai-web-fonts@6/fonts/IBMPlexSansThai/IBMPlexSansThai-Light.woff2') format('woff2');
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'IBM Plex Sans Thai';
+  src: url('https://cdn.jsdelivr.net/gh/lazywasabi/thai-web-fonts@6/fonts/IBMPlexSansThai/IBMPlexSansThai-Regular.woff2') format('woff2');
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'IBM Plex Sans Thai';
+  src: url('https://cdn.jsdelivr.net/gh/lazywasabi/thai-web-fonts@6/fonts/IBMPlexSansThai/IBMPlexSansThai-Medium.woff2') format('woff2');
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'IBM Plex Sans Thai';
+  src: url('https://cdn.jsdelivr.net/gh/lazywasabi/thai-web-fonts@6/fonts/IBMPlexSansThai/IBMPlexSansThai-SemiBold.woff2') format('woff2');
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'IBM Plex Sans Thai';
+  src: url('https://cdn.jsdelivr.net/gh/lazywasabi/thai-web-fonts@6/fonts/IBMPlexSansThai/IBMPlexSansThai-Bold.woff2') format('woff2');
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+} */
+@font-face {
+  font-family: "IBMPlexSans";
+  src: url("font/IBMPlexSans/IBMPlexSansThai-Regular.woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "IBMPlexSans";
+  src: url("font/IBMPlexSans/IBMPlexSansThai-Medium.woff2");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "IBMPlexSans";
+  src: url("font/IBMPlexSans/IBMPlexSansThai-SemiBold.woff2");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "IBM Plex Sans Thai Looped";
+  src: url("font/IBMPlexSansLoop/IBMPlexSansThaiLooped-Regular.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+/* @font-face {
+    font-family: 'IBMPlexSans';
+    src: url('font/IBMPlexSans/IBMPlexSansThai-Regular.woff2');
+    font-weight: normal;
+    font-style: normal;
+} */
+
+html,
+body,
+/* span, */
+div,
+a,
+h1,
+h3,
+h4,
+b,
+th,
+td,
+.topic,
+.display-4,
+.display-3,
+.display-2,
+.display-1,
+.headline,
+.title,
+.subheading,
+.body-2,
+.body-1,
+.caption {
+  font-family: "IBMPlexSans" !important;
+  letter-spacing: normal !important;
+}
+
+html h2 {
+  font-size: 24px;
+  margin-bottom: 16px;
+  font-family: "IBMPlexSans" !important;
+  letter-spacing: normal !important;
+}
+/* color: rgb(222, 226, 215); */
+/* color: #777777; */
+/* td */
+html,
+body {
+  font-size: 16px;
+}
+
+.topic {
+  font-size: 34px !important;
+}
+
+.bold {
+  font-weight: bold !important;
+}
+
+.grey--border {
+  border: 1px solid #eee;
+}
+
+.hand {
+  cursor: pointer;
+}
+.default {
+  cursor: default;
+}
+
+.underline:hover {
+  text-decoration: underline !important;
+}
+
+.left {
+  float: left;
+}
+.right {
+  float: right;
+}
+.end-x {
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+}
+.end-y {
+  display: flex;
+  height: 100%;
+  align-items: flex-end;
+}
+.center-y {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+.h-center {
+  display: flex;
+  align-items: center;
+}
+.center-x {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.h-100 {
+  height: 100% !important;
+}
+.w-100 {
+  width: 100% !important;
+}
+
+.noshadow {
+  box-shadow: none !important;
+}
+
+.fixBottom {
+  position: fixed;
+  bottom: 1em;
+  right: 1em;
+}
+.sm-text-center {
+  text-align: center !important;
+}
+
+.effect-image {
+  opacity: 0.8;
+}
+
+.line-upper-page2 {
+  border-top: 4px solid rgba(13, 185, 99, 0.76);
+}
+
+.test-form-width {
+  width: 100%;
+}
+.z-index-fix-font {
+  z-index: 999;
+}
+
+.Homepage-Wrapper {
+  position: relative;
+}
+
+.Homepage-Wrapper .Banner-Gradient::before {
+  content: "";
+  position: absolute;
+  pointer-events: none;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    180deg,
+    rgba(0, 109, 183, 0.22) 0%,
+    rgba(255, 255, 255, 0) 46.88%,
+    rgba(11, 112, 182, 0.5) 100%
+  );
+}
+
+.Homepage-Banner {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+:root {
+  --NAV-HEIGHT: 56px;
+}
+@media (min-width: 960px) {
+  :root {
+    --NAV-HEIGHT: 64px;
+  }
+  header .v-toolbar__content {
+    padding: 0 !important;
+  }
+}
+
+.mt-top {
+  margin-top: var(--NAV-HEIGHT) !important;
+}
+
+.-mt-top {
+  margin-top: calc(var(--NAV-HEIGHT) * -1) !important;
+}
+
+.pt-top {
+  padding-top: var(--NAV-HEIGHT) !important;
+}
+
+.-pt-top {
+  padding-top: calc(var(--NAV-HEIGHT) * -1) !important;
+}
+
+.top-top {
+  top: var(--NAV-HEIGHT) !important;
+}
+
+.line-clamp {
+  display: -webkit-box;
+  /* max-width: 200px; */
+  -webkit-line-clamp: var(--line-clamp);
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.v-btn__content {
+  letter-spacing: normal;
+}
+
+.header-title {
+  line-height: 1.1;
+  margin-top: 15px;
+}
+
+.header-tag {
+  margin-bottom: 10px;
+}
+
+.partner-card-item .v-image {
+  background: #ffffff;
+  width: 100%;
+  height: 100%;
+}
+
+.partner-card-item .v-image .v-image__image {
+  background-size: 90%;
+}
+
+@media only screen and (min-width: 0px) {
+  .sm-mb-40 {
+    margin-bottom: 40px;
+  }
+  .fontbig {
+    font-size: 13px;
+  }
+}
+@media only screen and (min-width: 375) {
+  .sm-mb-40 {
+    margin-bottom: 0px;
+  }
+  .fontbig {
+    font-size: 16px;
+  }
+}
+@media only screen and (min-width: 1240px) {
+  .sm-mb-40 {
+    margin-bottom: 0px;
+  }
+  .fontbig {
+    font-size: 28px;
+  }
+}
+
+:root {
+  --LOOPER-WIDTH: -2016px;
+}
+@media (min-width: 600px) {
+  :root {
+    --LOOPER-WIDTH: -2616px;
+  }
+}
+
+/*keyframe animations*/
+.first {
+  animation: loopermove 60s linear infinite;
+}
+
+@keyframes loopermove {
+  0% {
+    margin-left: 0px;
+  }
+  100% {
+    margin-left: var(--LOOPER-WIDTH);
+  }
+}
+
+.font-thai-looped {
+  font-family: "IBM Plex Sans Thai Looped" !important;
+}
+
+/*
+h1, h2, h3, h4, b, .bold  {
+  font-family: 'cloudbold' !important;
+}
+th {
+  font-family: 'cloudbold' !important;
+  font-size: 17px !important;
+}
+.swal2-icon {
+  font-family: 'cloudbold' !important;
+  font-size: 200% !important;
+}
+.dialog { box-shadow: none !important; }
+*/

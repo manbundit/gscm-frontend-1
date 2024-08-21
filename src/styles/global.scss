@@ -1,0 +1,51 @@
+.btn-primary {
+  background: #2AB3A3;
+  border-radius: 0 !important;
+}
+
+.v-window__prev {
+  background: none !important;
+}
+.v-window__next {
+  background: none !important;
+}
+
+ul.normal-ul {
+  list-style-type: disc;
+  list-style-position: inside;
+}
+
+ul {
+  list-style-type: disc !important;
+  list-style-position: inside !important;
+}
+
+ol {
+  list-style: auto !important;
+  list-style-position: inside !important;
+}
+
+.v-tab h2{
+  font-size: 16px;
+}
+
+.tab h2{
+  font-size: 18px;
+}
+
+.v-dialog--active{
+  position: relative;
+  cursor: pointer;
+}
+
+.btnnotselected--staff{
+  cursor: pointer;
+}
+
+.-menu-header_color{
+  color: #7ECBFF;
+}
+
+.no-outline {
+  outline: none !important;
+}
