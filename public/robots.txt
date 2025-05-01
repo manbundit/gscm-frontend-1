@@ -12,6 +12,6 @@ Disallow: /~chutisant/*
 Disallow: /2014
 Disallow: *.php
 Disallow: *.src
-Disallow: *.html
+Disallow: /.$
  
 Sitemap: https://www.gscm.nida.ac.th/sitemap.xml
