@@ -29,7 +29,7 @@ export default {
       });
     },
     activeRequests(newVal) {
-      console.log(newVal)
+      // console.log(newVal)
       this.loading = newVal > 0;
       if (newVal === 0) {
         // console.log("All network requests completed");
